@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack App</title>
+  </head>
+  <body class="w-screen h-screen flex flex-col items-center bg-cover" id="bg">
+    <div class="w-full h-full flex flex-col items-center" style="background: radial-gradient(circle, transparent 50%, rgba(0, 0, 0, 0.7) 100%);">
+        <header class="w-full flex justify-between items-center text-white px-12 my-8 font-semibold flex-col gap-4 sm:flex-row">
+            <a href="https://www.hm-stavby.cz/" target="_blank" rel="noopener noreferrer"><span class="transition-all hover:text-gray-300 cursor-pointer">ZPĚT NA WEB</span></a>
+            <span><img alt="HM Stavby" id="logo"></span>
+            <a href="https://www.hm-stavby.cz/kontakt.php" target="_blank" rel="noopener noreferrer"><span class="transition-all hover:text-gray-300 cursor-pointer">KONTAKT</span></a>
+        </header>
+        <main class="flex flex-col items-center w-11/12 my-auto bg-gray-500/20 backdrop-blur-md py-12 rounded-3xl text-neutral-50 sm:w-2/3">
+            <div class="w-10/12 mb-6 aspect-video  flex justify-center sm:w-1/2">
+                <iframe width="100%" src="https://www.youtube.com/embed/1njiyYSU3ko" title="Řezačka Perlinky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h1 class="font-bold text-4xl flex text-center mx-4">ŘEZAČKA PERLINKY</h1>
+            <p class="my-6 max-w-3xl mx-12 text-center sm:text-left">
+              Naše přesná řezačka tkanin je ideálním nástrojem pro každého, kdo vyžaduje precizní řezy a spolehlivost. Díky speciálnímu řezacímu mechanismu a digitálnímu přesnému metru dosahujeme konzistentních a precizních výsledků. Umožňuje rychlé a efektivní řezání tkanin, což šetří váš čas a zvyšuje produktivitu. Minimalizujte ztráty materiálu díky přesným řezům, což vede k úspoře nákladů a zlepšuje ekonomickou efektivitu. Intuitivní design a snadné ovládání usnadňují práci i méně zkušeným uživatelům. Díky kompaktnímu designu a lehké konstrukci je řezačka snadno přenosná a vhodná pro různá pracoviště. Navržena pro dlouhou životnost a odolnost v náročných podmínkách.</p>
+            <a href="https://www.hm-stavby.cz/kontakt.php" target="_blank" rel="noopener noreferrer"><button class="w-fit bg-white text-slate-800 font-bold px-16 py-4 rounded-full transition-all hover:bg-neutral-100">Kontakt</button></a>
+        </main>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
